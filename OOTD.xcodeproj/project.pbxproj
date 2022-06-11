@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		772513BD28507B98009DABF8 /* OOTDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513BC28507B98009DABF8 /* OOTDApp.swift */; };
-		772513BF28507B98009DABF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513BE28507B98009DABF8 /* ContentView.swift */; };
+		772513BF28507B98009DABF8 /* ClothesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513BE28507B98009DABF8 /* ClothesView.swift */; };
 		772513C128507BAC009DABF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772513C028507BAC009DABF8 /* Assets.xcassets */; };
 		772513C428507BAC009DABF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772513C328507BAC009DABF8 /* Preview Assets.xcassets */; };
 		772513CE28507BAD009DABF8 /* OOTDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513CD28507BAD009DABF8 /* OOTDTests.swift */; };
 		772513D828507BAD009DABF8 /* OOTDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513D728507BAD009DABF8 /* OOTDUITests.swift */; };
 		772513DA28507BAD009DABF8 /* OOTDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513D928507BAD009DABF8 /* OOTDUITestsLaunchTests.swift */; };
+		772513E728507DB7009DABF8 /* Clothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513E628507DB7009DABF8 /* Clothes.swift */; };
+		772513E92851574F009DABF8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513E82851574E009DABF8 /* ImagePicker.swift */; };
+		772513EB285158C6009DABF8 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513EA285158C6009DABF8 /* MainPageView.swift */; };
+		772513ED28516026009DABF8 /* ClosetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513EC28516026009DABF8 /* ClosetListView.swift */; };
+		772513EF28517750009DABF8 /* StyleBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513EE28517750009DABF8 /* StyleBoardView.swift */; };
+		772513F128517897009DABF8 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513F028517897009DABF8 /* CalendarView.swift */; };
+		772513F3285178A7009DABF8 /* OccassionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772513F2285178A7009DABF8 /* OccassionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		772513B928507B98009DABF8 /* OOTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772513BC28507B98009DABF8 /* OOTDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOTDApp.swift; sourceTree = "<group>"; };
-		772513BE28507B98009DABF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		772513BE28507B98009DABF8 /* ClothesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesView.swift; sourceTree = "<group>"; };
 		772513C028507BAC009DABF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772513C328507BAC009DABF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		772513C928507BAD009DABF8 /* OOTDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOTDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,13 @@
 		772513D328507BAD009DABF8 /* OOTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772513D728507BAD009DABF8 /* OOTDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOTDUITests.swift; sourceTree = "<group>"; };
 		772513D928507BAD009DABF8 /* OOTDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOTDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		772513E628507DB7009DABF8 /* Clothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes.swift; sourceTree = "<group>"; };
+		772513E82851574E009DABF8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		772513EA285158C6009DABF8 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		772513EC28516026009DABF8 /* ClosetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetListView.swift; sourceTree = "<group>"; };
+		772513EE28517750009DABF8 /* StyleBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleBoardView.swift; sourceTree = "<group>"; };
+		772513F028517897009DABF8 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		772513F2285178A7009DABF8 /* OccassionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccassionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +109,14 @@
 			isa = PBXGroup;
 			children = (
 				772513BC28507B98009DABF8 /* OOTDApp.swift */,
-				772513BE28507B98009DABF8 /* ContentView.swift */,
+				772513BE28507B98009DABF8 /* ClothesView.swift */,
+				772513EA285158C6009DABF8 /* MainPageView.swift */,
+				772513F028517897009DABF8 /* CalendarView.swift */,
+				772513F2285178A7009DABF8 /* OccassionView.swift */,
+				772513EE28517750009DABF8 /* StyleBoardView.swift */,
+				772513EC28516026009DABF8 /* ClosetListView.swift */,
+				772513E82851574E009DABF8 /* ImagePicker.swift */,
+				772513E628507DB7009DABF8 /* Clothes.swift */,
 				772513C028507BAC009DABF8 /* Assets.xcassets */,
 				772513C228507BAC009DABF8 /* Preview Content */,
 			);
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				772513BF28507B98009DABF8 /* ContentView.swift in Sources */,
+				772513E728507DB7009DABF8 /* Clothes.swift in Sources */,
+				772513E92851574F009DABF8 /* ImagePicker.swift in Sources */,
+				772513F128517897009DABF8 /* CalendarView.swift in Sources */,
+				772513BF28507B98009DABF8 /* ClothesView.swift in Sources */,
 				772513BD28507B98009DABF8 /* OOTDApp.swift in Sources */,
+				772513EF28517750009DABF8 /* StyleBoardView.swift in Sources */,
+				772513ED28516026009DABF8 /* ClosetListView.swift in Sources */,
+				772513F3285178A7009DABF8 /* OccassionView.swift in Sources */,
+				772513EB285158C6009DABF8 /* MainPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
